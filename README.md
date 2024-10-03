@@ -21,11 +21,12 @@ This project implements a `Bike` class in Python, encapsulating various properti
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bike-class.git
+   git clone https://github.com/bapriddy/bike-class.git
    cd bike-class
 from bike import Bike
 
 ## Usage
+
 # Create a new bike instance
 my_bike = Bike(number_gears=5, nummber_wheels=2, brake_type="hand brakes")
 
