@@ -1,15 +1,25 @@
-The following instructions provide the requirements for this object oriented python project.
-Create a Bike Class in python with the following properties;
-Number of Gears
-Current Gear (should default to 1)
-Number of Wheels (1, 2, 3, or 4)
-Brake Type ("hand brakes" or "foot brakes")
+# Bike Class in Python
 
-Then add the following methods
-Set & Get Number of Gears
-Set & Get Current Gear
-Set & Get Number of Wheels
-Set & Get Brake Type
-Reset Gears: Set gear back to 1
-Increase Gear: Increase Current Gear by 1, do not allow going over Number of Gears
-Decrease Gear: Decrease Current Gear by 1, do not allow going under 1
+## Description
+
+This project implements a `Bike` class in Python, encapsulating various properties and methods related to a bike. The class allows you to manage the bike's gears, wheels, and brake type, providing a basic interface for interacting with a bike's functionality.
+
+## Features
+
+- Set and get the number of gears.
+- Set and get the current gear (default is 1).
+- Set and get the number of wheels (1 to 4).
+- Set and get the brake type (either "hand brakes" or "foot brakes").
+- Reset gears to 1.
+- Increase or decrease the current gear, ensuring it stays within valid limits.
+
+## Requirements
+
+- Python 3.x
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/bike-class.git
+   cd bike-class
