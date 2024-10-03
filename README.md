@@ -26,7 +26,6 @@ This project implements a `Bike` class in Python, encapsulating various properti
 from bike import Bike
 
 ## Usage
-
 # Create a new bike instance
 my_bike = Bike(number_gears=5, nummber_wheels=2, brake_type="hand brakes")
 
