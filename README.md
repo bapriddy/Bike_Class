@@ -23,3 +23,22 @@ This project implements a `Bike` class in Python, encapsulating various properti
    ```bash
    git clone https://github.com/yourusername/bike-class.git
    cd bike-class
+from bike import Bike
+
+# Create a new bike instance
+my_bike = Bike(num_gears=5, num_wheels=2, brake_type="hand brakes")
+
+# Set current gear
+my_bike.set_current_gear(3)
+
+# Get current gear
+print(my_bike.get_current_gear())  # Output: 3
+
+# Increase gear
+my_bike.increase_gear()
+
+# Decrease gear
+my_bike.decrease_gear()
+
+# Reset gears
+my_bike.reset_gears()
