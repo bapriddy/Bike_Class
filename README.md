@@ -25,8 +25,9 @@ This project implements a `Bike` class in Python, encapsulating various properti
    cd bike-class
 from bike import Bike
 
+## Usage
 # Create a new bike instance
-my_bike = Bike(num_gears=5, num_wheels=2, brake_type="hand brakes")
+my_bike = Bike(number_gears=5, nummber_wheels=2, brake_type="hand brakes")
 
 # Set current gear
 my_bike.set_current_gear(3)
@@ -35,10 +36,10 @@ my_bike.set_current_gear(3)
 print(my_bike.get_current_gear())  # Output: 3
 
 # Increase gear
-my_bike.increase_gear()
+my_bike.increase_gear() # Output 4
 
 # Decrease gear
-my_bike.decrease_gear()
+my_bike.decrease_gear() # Output 3
 
 # Reset gears
-my_bike.reset_gears()
+my_bike.reset_gears() # back to 1
