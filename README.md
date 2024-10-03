@@ -2,7 +2,7 @@
 
 ## Description
 
-This project implements a `Bike` class in Python, encapsulating various properties and methods related to a bike. The class allows you to manage the bike's gears, wheels, and brake type, providing a basic interface for interacting with a bike's functionality.
+This project implements a `Bike` class in Python using an object oriented approach. The code contains various properties and methods related to a bike. The class allows you to manage the bike's gears, wheels, and brake type, providing a basic interface for interacting with a bike's functionality.  The code has some additional error tests to limit values to within acceptable usage based on the reuirements that were given by the customer.
 
 ## Features
 
